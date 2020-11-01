@@ -1,15 +1,20 @@
-let add = document.getElementById('increment');
-let remove = document.getElementById('decrement');
+var count = 0;
+        document.getElementById("sub").disabled = true;
 
-let int = document.getElementById('number');
-let integer = 0;
+        function increment() {
+            document.getElementById("sub").disabled = false;
+            count++;
+            document.getElementById("count").innerHTML = count;
+        }
 
-add.addEventListener('click', function () {
-    integer += 1;
-    int.innerHTML = integer;
-});
-
-remove.addEventListener('click', function () {
-    integer -= 1;
-    int.innerHTML = integer;
-});
+        function decrement() {
+            if (count === 0) {
+                document.getElementById("sub").disabled = true;
+            } else {
+                count--;
+                document.getElementById("count").innerHTML = count;
+            }
+            if (count === 0) {
+                document.getElementById("sub").disabled = true;
+            }
+        }
