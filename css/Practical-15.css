@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgb(216, 180, 180);
 
 }
 
@@ -22,9 +22,8 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 50vh;
-    border: 2px solid red;
-    border-radius: 20px;
-    background-color: #fff;
+   
+   
     width: 50%;
     margin: auto;
 
@@ -38,9 +37,7 @@ h1 {
     padding-bottom: 10px;
     color: blanchedalmond;
     background-color: rgb(8, 8, 8, 0.8);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    transition: 0.8s;
+    
 }
 
 .btn:hover {
@@ -72,7 +69,7 @@ h1 {
 .counter {
     font-size: 70px;
     margin: 20px;
-    background-color: #2ECC71;
+    
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 10px;
